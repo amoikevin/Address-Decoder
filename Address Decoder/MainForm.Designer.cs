@@ -257,7 +257,8 @@
             this.Controls.Add(this.tbThunber);
             this.Controls.Add(this.tbSrc);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1280, 800);
+            this.MaximumSize = new System.Drawing.Size(1280, 342);
+            this.MinimumSize = new System.Drawing.Size(670, 342);
             this.Name = "MainForm";
             this.Text = "下载地址链接转换工具";
             this.Theme = MetroFramework.MetroThemeStyle.Default;
